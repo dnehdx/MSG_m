@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+/media/
+/staticfiles/
+
+# 환경변수 (비밀키)
+.env
+
+# macOS
+.DS_Store
+
+# 에디터
+.idea/
+.vscode/
